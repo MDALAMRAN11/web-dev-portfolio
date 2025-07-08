@@ -12,6 +12,9 @@ body{
 }
 
 /*shared style*/
+.secondary-bg {
+    background-color: #FFF8F3;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -27,6 +30,15 @@ body{
     font-size: 20px;
     border: none;
 }
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
 
 /*header styles*/
 .header {
@@ -34,7 +46,7 @@ body{
     background-repeat: no-repeat;
     background-position: top left, right bottom;
 }
-/* navbar stylel*/
+/* navbar styles*/
 nav {
     display: flex;
     margin-top: 48px;
@@ -83,4 +95,114 @@ nav li a {
 }
 .banner-profile-picture {
     width: 500px;
+}
+
+/*main-style*/
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/*about-section*/
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-descreption {
+    font-weight: 600;
+}
+
+/* center*/
+.text-center {
+    text-align: center;
+}
+/*skill-container*/
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+}
+.skill-container .skill{
+    box-shadow: 0 6px 50px 0 #000000;
+}
+
+/*resume section style*/
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747
+}
+.experience-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-descreption {
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-subtitle {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 500;
+}
+.resume-container .resume-column-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+.resume hr {
+    margin: 30px 30px 30px 0;
+}
+
+/*footer-styles*/
+/* .footer{
+    display: flex;
+    width: 1600px;
+    height: 780px;
+}
+.footer .footer-column{
+    justify-content: space-around;
+    margin: 130px 113px auto 230px;
+}
+.footer p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer .social-link {
+    display: block;
+    width: 137px;
+} */
+
+.footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer input[type="text"], .footer input[type="email"], .footer textarea{
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
